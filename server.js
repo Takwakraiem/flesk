@@ -11,6 +11,7 @@ app.use(express.json({ limit: "10000mb" })); // Set the limit for JSON payloads
 
 
 app.use("/annonce", require("./routes/annonceRoute"));
+app.use("/expertRequest", require("./routes/expertRequestRoute"));
 
 
 
